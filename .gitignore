@@ -12,6 +12,12 @@
 /.next/
 /out/
 
+# Yarn
+.yarn
+.yarnrc
+.yarnrc.yml
+yarn.lock
+
 # production
 /build
 
