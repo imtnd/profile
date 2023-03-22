@@ -131,7 +131,7 @@ const HomePage: React.FC = () => {
 
         <div>
           {isLoading ? (
-           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '20vh'}}>
              <CircularProgress />
            </div>
           ) : (
