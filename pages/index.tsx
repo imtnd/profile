@@ -14,6 +14,7 @@ import {
   ListItemAvatar,
 } from '@mui/material';
 import { styled } from '@mui/system';
+import CircularProgress from '@mui/material/CircularProgress';
 
 type SpeakingHistory = {
   id: number;
@@ -33,12 +34,19 @@ const StyledAvatar = styled(Avatar)(({ theme }) => ({
 const HomePage: React.FC = () => {
   const historyRef = useRef<HTMLDivElement>(null);
   const [speakingHistory, setSpeakingHistory] = useState<SpeakingHistory[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const fetchSpeakingHistory = async () => {
-      const res = await fetch('/api/speakingHistory');
-      const data = await res.json();
-      setSpeakingHistory(data);
+      setIsLoading(true);
+      try {
+        const res = await fetch('/api/speakingHistory');
+        const data = await res.json();
+        setSpeakingHistory(data);
+        setIsLoading(false);
+      } catch (error) {
+        setIsLoading(false);
+      }
     };
     fetchSpeakingHistory();
   }, []);
@@ -121,33 +129,41 @@ const HomePage: React.FC = () => {
           Speaking History
         </Typography>
 
-        <List>
-          {speakingHistory
-          .map((history) => (
-          <ListItem key={history.id} alignItems="flex-start">
-          <ListItemAvatar>
-            <Avatar alt={`Conference ${history.conference}`} src={history.image} />
-          </ListItemAvatar>
-          <ListItemText
-            primary={history.conference}
-            secondary={
-              <>
-                <Typography component="span" variant="body2" color="text.primary">
-                  Date: {history.date}
-                </Typography>
-                {' - '}
-                Title: 
-                { history.url != '' ? (
-                  <Link href={history.url} target="_blank" rel="noopener noreferrer">
-                    {history.title}
-                  </Link>
-                ) : ( history.title ) }
-              </>
-            }
-          />
-          </ListItem>
-        ))}
-        </List>
+        <div>
+          {isLoading ? (
+           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+             <CircularProgress />
+           </div>
+          ) : (
+            <List>
+              {speakingHistory
+              .map((history) => (
+              <ListItem key={history.id} alignItems="flex-start">
+              <ListItemAvatar>
+                <Avatar alt={`Conference ${history.conference}`} src={history.image} />
+              </ListItemAvatar>
+              <ListItemText
+                primary={history.conference}
+                secondary={
+                  <>
+                    <Typography component="span" variant="body2" color="text.primary">
+                      Date: {history.date}
+                    </Typography>
+                    {' - '}
+                    Title: 
+                    { history.url != '' ? (
+                      <Link href={history.url} target="_blank" rel="noopener noreferrer">
+                        {history.title}
+                      </Link>
+                    ) : ( history.title ) }
+                  </>
+                }
+              />
+              </ListItem>
+            ))}
+            </List>
+          )}
+        </div>
       </Box>
     </Container>
   );
