@@ -84,7 +84,7 @@ const speakingHistory: SpeakingHistory[] = [
   },
   {
     id: 10,
-    conference: 'NaITE#31',
+    conference: '長崎IT技術者会　第31回勉強会',
     date: '2019-04-07',
     title: 'テストレベル定義について考える',
     url: 'https://speakerdeck.com/imtnd/lets-consider-about-test-levels',
