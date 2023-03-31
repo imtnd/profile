@@ -44,6 +44,14 @@ const speakingHistory: SpeakingHistory[] = [
   },
   {
     id: 5,
+    conference: 'WACATE2017 夏',
+    date: '2017-06-17',
+    title: 'テスト方針説明(資料非公開)',
+    url: '',
+    image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
+  },
+  {
+    id: 6,
     conference: '長崎IT技術者会　第23回勉強会',
     date: '2017-07-16',
     title: 'Git Flowを運用するために',
@@ -51,7 +59,7 @@ const speakingHistory: SpeakingHistory[] = [
     image: 'https://connpass-tokyo.s3.amazonaws.com/thumbs/3a/e8/3ae8066760bdaaf452e6054818b83691.png',
   },
   {
-    id: 6,
+    id: 7,
     conference: 'WACATE2017 冬',
     date: '2017-12-16',
     title: 'ソースコードを読んでみよう',
@@ -59,7 +67,7 @@ const speakingHistory: SpeakingHistory[] = [
     image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
   },
   {
-    id: 7,
+    id: 8,
     conference: 'WACATE2018 夏',
     date: '2018-06-16',
     title: '状態遷移テスト',
@@ -67,7 +75,7 @@ const speakingHistory: SpeakingHistory[] = [
     image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
   },
   {
-    id: 8,
+    id: 9,
     conference: 'Agile Japan 2018 長崎サテライト with NaITE',
     date: '2018-09-15',
     title: '流れを止めないチーム開発(未使用)',
@@ -75,7 +83,7 @@ const speakingHistory: SpeakingHistory[] = [
     image: 'https://connpass-tokyo.s3.amazonaws.com/thumbs/2a/26/2a2614e0882e8862ff8b00fd8c15552d.png'
   },
   {
-    id: 9,
+    id: 10,
     conference: 'WACATE2018 冬',
     date: '2018-12-15',
     title: 'コードカバレッジを知ろう',
@@ -83,7 +91,7 @@ const speakingHistory: SpeakingHistory[] = [
     image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
   },
   {
-    id: 10,
+    id: 11,
     conference: 'Agile Japan 2019 長崎サテライト with NaITE',
     date: '2019-03-23',
     title: 'Agile Japan 2019 Report',
@@ -91,7 +99,7 @@ const speakingHistory: SpeakingHistory[] = [
     image: 'https://connpass-tokyo.s3.amazonaws.com/thumbs/d2/78/d278ed8afad9573ca1393a78ed053abd.png',
   },
   {
-    id: 11,
+    id: 12,
     conference: '長崎IT技術者会　第31回勉強会',
     date: '2019-04-07',
     title: 'テストレベル定義について考える',
@@ -99,7 +107,15 @@ const speakingHistory: SpeakingHistory[] = [
     image: 'https://connpass-tokyo.s3.amazonaws.com/thumbs/2b/8d/2b8dd7bad6f719ffb0faf0aa8361e3ea.png',
   },
   {
-    id: 12,
+    id: 13,
+    conference: 'WACATE2019 夏',
+    date: '2019-06-15',
+    title: 'ワーク進め方説明(資料非公開)',
+    url: '',
+    image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
+  },
+  {
+    id: 14,
     conference: 'JaSST\'19 Hokkaido',
     date: '2019-08-30',
     title: '体験しよう！テスト分析設計エクササイズ(ワークショップTA)',
@@ -107,7 +123,7 @@ const speakingHistory: SpeakingHistory[] = [
     image: 'https://www.jasst.jp/banner/jasst19hokkaido.png',
   },
   {
-    id: 13,
+    id: 15,
     conference: 'XP祭り2019',
     date: '2019-09-21',
     title: 'やってみよう状態遷移テスト',
@@ -115,7 +131,7 @@ const speakingHistory: SpeakingHistory[] = [
     image: 'http://xpjug.com/wp-content/uploads/2019/07/xp2019-eyecatch-1.png',
   },
   {
-    id: 14,
+    id: 16,
     conference: 'WACATE2019 冬',
     date: '2019-12-14',
     title: 'アジャイルとテスト',
@@ -123,7 +139,15 @@ const speakingHistory: SpeakingHistory[] = [
     image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
   },
   {
-    id: 15,
+    id: 17,
+    conference: 'JaSST\'20 Tokyo',
+    date: '2020-03-09',
+    title: 'WACATE流テスト分析のワークショップを体感してみよう（開催中止）',
+    url: '',
+    image: 'https://jasst.jp/banner/jasst20tokyo.png',
+  },
+  {
+    id: 18,
     conference: 'WACATE2020 冬',
     date: '2020-12-12',
     title: 'テストの目的を考えよう',
@@ -131,7 +155,7 @@ const speakingHistory: SpeakingHistory[] = [
     image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
   },
   {
-    id: 16,
+    id: 19,
     conference: 'JaSST\'21 Tokyo',
     date: '2021-03-15',
     title: 'WACATE流テスト分析のワークショップを体感してみよう',
@@ -139,7 +163,7 @@ const speakingHistory: SpeakingHistory[] = [
     image: 'https://www.jasst.jp/banner/jasst21tokyo02.png',
   },
   {
-    id: 17,
+    id: 20,
     conference: 'WACATE2021 夏',
     date: '2021-06-12',
     title: 'テスト技法作成のアプローチを考える',
@@ -147,7 +171,7 @@ const speakingHistory: SpeakingHistory[] = [
     image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
   },
   {
-    id: 18,
+    id: 21,
     conference: 'WACATE2021 冬',
     date: '2021-12-12',
     title: 'デシジョンテーブルで振る舞いを整理しよう',
@@ -155,7 +179,15 @@ const speakingHistory: SpeakingHistory[] = [
     image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
   },
   {
-    id: 19,
+    id: 22,
+    conference: 'Agile Japan 2021 長崎サテライト with NaITE',
+    date: '2022-02-26',
+    title: 'アーキテクチャとテスタビリティ(開催中止)',
+    url: '',
+    image: 'https://connpass-tokyo.s3.amazonaws.com/thumbs/76/b0/76b0cbf5f1976e3aa7dc2b680d99014f.png',
+  },
+  {
+    id: 23,
     conference: 'Scrum Fest Niigata 2022',
     date: '2022-03-21',
     title: 'テスト設計技法をなぜ＆どのように使うのか体験しよう！',
@@ -163,7 +195,7 @@ const speakingHistory: SpeakingHistory[] = [
     image: 'https://res.cloudinary.com/dnnqsdghx/image/upload/w_600,f_auto,q_auto:best/v1640690768/ConfLogos/uj2csvkch55s6rclcvf6.png',
   },
   {
-    id: 20,
+    id: 24,
     conference: 'WACATE2022 夏',
     date: '2022-06-18',
     title: 'ワークショップの目的',
