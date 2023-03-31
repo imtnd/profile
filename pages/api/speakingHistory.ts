@@ -44,7 +44,7 @@ const speakingHistory: SpeakingHistory[] = [
   },
   {
     id: 5,
-    conference: 'WACATE2017 夏',
+    conference: 'WACATE 2017 夏',
     date: '2017-06-17',
     title: 'テスト方針説明(資料非公開)',
     url: '',
@@ -60,7 +60,7 @@ const speakingHistory: SpeakingHistory[] = [
   },
   {
     id: 7,
-    conference: 'WACATE2017 冬',
+    conference: 'WACATE 2017 冬',
     date: '2017-12-16',
     title: 'ソースコードを読んでみよう',
     url: 'https://www.slideshare.net/ShunTsunoda/ss-84299783',
@@ -84,7 +84,7 @@ const speakingHistory: SpeakingHistory[] = [
   },
   {
     id: 10,
-    conference: 'WACATE2018 冬',
+    conference: 'WACATE 2018 冬',
     date: '2018-12-15',
     title: 'コードカバレッジを知ろう',
     url: 'https://speakerdeck.com/imtnd/kodokabaretuziwozhi-rou',
@@ -108,7 +108,7 @@ const speakingHistory: SpeakingHistory[] = [
   },
   {
     id: 13,
-    conference: 'WACATE2019 夏',
+    conference: 'WACATE 2019 夏',
     date: '2019-06-15',
     title: 'ワーク進め方説明(資料非公開)',
     url: '',
@@ -132,7 +132,7 @@ const speakingHistory: SpeakingHistory[] = [
   },
   {
     id: 16,
-    conference: 'WACATE2019 冬',
+    conference: 'WACATE 2019 冬',
     date: '2019-12-14',
     title: 'アジャイルとテスト',
     url: 'https://speakerdeck.com/imtnd/agile-and-testing',
@@ -148,7 +148,7 @@ const speakingHistory: SpeakingHistory[] = [
   },
   {
     id: 18,
-    conference: 'WACATE2020 冬',
+    conference: 'WACATE 2020 冬',
     date: '2020-12-12',
     title: 'テストの目的を考えよう',
     url: 'https://speakerdeck.com/imtnd/tesutofalsemu-de-wokao-eyou',
@@ -164,7 +164,7 @@ const speakingHistory: SpeakingHistory[] = [
   },
   {
     id: 20,
-    conference: 'WACATE2021 夏',
+    conference: 'WACATE 2021 夏',
     date: '2021-06-12',
     title: 'テスト技法作成のアプローチを考える',
     url: 'https://speakerdeck.com/imtnd/tesutoji-fa-zuo-cheng-falseapurotiwokao-eru',
@@ -172,6 +172,14 @@ const speakingHistory: SpeakingHistory[] = [
   },
   {
     id: 21,
+    conference: 'Agile Japan 2020 長崎サテライト with NaITE',
+    date: '2021-06-26',
+    title: 'フィードバックを加速させる開発(開催中止)',
+    url: '',
+    image: 'https://connpass-tokyo.s3.amazonaws.com/thumbs/44/18/441849f8d8a8449298a7eed9f4ec14f5.png',
+  },
+  {
+    id: 22,
     conference: 'WACATE2021 冬',
     date: '2021-12-12',
     title: 'デシジョンテーブルで振る舞いを整理しよう',
@@ -179,7 +187,7 @@ const speakingHistory: SpeakingHistory[] = [
     image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
   },
   {
-    id: 22,
+    id: 23,
     conference: 'Agile Japan 2021 長崎サテライト with NaITE',
     date: '2022-02-26',
     title: 'アーキテクチャとテスタビリティ(開催中止)',
@@ -187,7 +195,7 @@ const speakingHistory: SpeakingHistory[] = [
     image: 'https://connpass-tokyo.s3.amazonaws.com/thumbs/76/b0/76b0cbf5f1976e3aa7dc2b680d99014f.png',
   },
   {
-    id: 23,
+    id: 24,
     conference: 'Scrum Fest Niigata 2022',
     date: '2022-03-21',
     title: 'テスト設計技法をなぜ＆どのように使うのか体験しよう！',
@@ -195,8 +203,8 @@ const speakingHistory: SpeakingHistory[] = [
     image: 'https://res.cloudinary.com/dnnqsdghx/image/upload/w_600,f_auto,q_auto:best/v1640690768/ConfLogos/uj2csvkch55s6rclcvf6.png',
   },
   {
-    id: 24,
-    conference: 'WACATE2022 夏',
+    id: 25,
+    conference: 'WACATE 2022 夏',
     date: '2022-06-18',
     title: 'ワークショップの目的',
     url: 'https://speakerdeck.com/imtnd/wacate-2022-xia-wakusiyotupufalsemu-de',
