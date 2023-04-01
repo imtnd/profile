@@ -180,7 +180,7 @@ const speakingHistory: SpeakingHistory[] = [
   },
   {
     id: 22,
-    conference: 'WACATE2021 冬',
+    conference: 'WACATE 2021 冬',
     date: '2021-12-12',
     title: 'デシジョンテーブルで振る舞いを整理しよう',
     url: 'https://speakerdeck.com/imtnd/analyze-the-behavior-with-decision-table',
