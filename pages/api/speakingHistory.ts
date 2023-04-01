@@ -68,7 +68,7 @@ const speakingHistory: SpeakingHistory[] = [
   },
   {
     id: 8,
-    conference: 'WACATE2018 夏',
+    conference: 'WACATE 2018 夏',
     date: '2018-06-16',
     title: '状態遷移テスト',
     url: 'https://speakerdeck.com/imtnd/zhuang-tai-qian-yi-tesuto-state-transition-testing',
