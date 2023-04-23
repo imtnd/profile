@@ -1,4 +1,3 @@
-// pages/index.tsx
 import { useRef, useState, useEffect } from 'react';
 import {
   Container,
@@ -15,15 +14,7 @@ import {
 } from '@mui/material';
 import { styled } from '@mui/system';
 import CircularProgress from '@mui/material/CircularProgress';
-
-type SpeakingHistory = {
-  id: number;
-  conference: string;
-  date: string;
-  title: string;
-  url: string;
-  image: string;
-};
+import {SpeakingList, Speaking} from '../components/speakingList';
 
 const StyledAvatar = styled(Avatar)(({ theme }) => ({
   width: 150,
@@ -33,7 +24,7 @@ const StyledAvatar = styled(Avatar)(({ theme }) => ({
 
 const HomePage: React.FC = () => {
   const historyRef = useRef<HTMLDivElement>(null);
-  const [speakingHistory, setSpeakingHistory] = useState<SpeakingHistory[]>([]);
+  const [speakingList, setSpeakingList] = useState<Speaking[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -42,7 +33,7 @@ const HomePage: React.FC = () => {
       try {
         const res = await fetch('/api/speakingHistory');
         const data = await res.json();
-        setSpeakingHistory(data);
+        setSpeakingList(data);
         setIsLoading(false);
       } catch (error) {
         setIsLoading(false);
@@ -126,7 +117,7 @@ const HomePage: React.FC = () => {
       </Box>
       <Box ref={historyRef} sx={{ my: 4 }}>
         <Typography variant="h5" component="h2" gutterBottom>
-          Speaking History
+          Speaking
         </Typography>
 
         <div>
@@ -135,33 +126,7 @@ const HomePage: React.FC = () => {
              <CircularProgress />
            </div>
           ) : (
-            <List>
-              {speakingHistory
-              .map((history) => (
-              <ListItem key={history.id} alignItems="flex-start">
-              <ListItemAvatar>
-                <Avatar alt={`Conference ${history.conference}`} src={history.image} />
-              </ListItemAvatar>
-              <ListItemText
-                primary={history.conference}
-                secondary={
-                  <>
-                    <Typography component="span" variant="body2" color="text.primary">
-                      Date: {history.date}
-                    </Typography>
-                    {' - '}
-                    Title: 
-                    { history.url != '' ? (
-                      <Link href={history.url} target="_blank" rel="noopener noreferrer">
-                        {history.title}
-                      </Link>
-                    ) : ( history.title ) }
-                  </>
-                }
-              />
-              </ListItem>
-            ))}
-            </List>
+            <SpeakingList speakingList={speakingList} />
           )}
         </div>
       </Box>
