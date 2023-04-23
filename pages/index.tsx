@@ -14,7 +14,7 @@ import {
 } from '@mui/material';
 import { styled } from '@mui/system';
 import CircularProgress from '@mui/material/CircularProgress';
-import {SpeakingList, Speaking} from '../components/speakingList';
+import { SpeakingList, Speaking } from '../components/speakingList';
 
 const StyledAvatar = styled(Avatar)(({ theme }) => ({
   width: 150,
@@ -117,9 +117,8 @@ const HomePage: React.FC = () => {
       </Box>
       <Box ref={historyRef} sx={{ my: 4 }}>
         <Typography variant="h5" component="h2" gutterBottom>
-          Speaking
+          Speaking History
         </Typography>
-
         <div>
           {isLoading ? (
            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '20vh'}}>

@@ -22,8 +22,8 @@ export const SpeakingList: React.FC<SpeakingProps> = ({ speakingList }) => {
           <Avatar alt={`Conference ${speaking.conference}`} src={speaking.image} />
         </ListItemAvatar>
         <ListItemText
-          primary={speaking.conference}
-          secondary={
+            primary={speaking.conference}
+            secondary={
             <>
               <Typography component="span" variant="body2" color="text.primary">
                 Date: {speaking.date}
@@ -36,7 +36,7 @@ export const SpeakingList: React.FC<SpeakingProps> = ({ speakingList }) => {
                 </Link>
               ) : ( speaking.title ) }
             </>
-          }
+             }
         />
         </ListItem>
         ))}
