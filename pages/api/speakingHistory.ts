@@ -48,7 +48,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2017-06-17',
     title: 'テスト方針説明(資料非公開)',
     url: '',
-    image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
+    image: 'wacate_logo.jpg',
   },
   {
     id: 6,
@@ -64,7 +64,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2017-12-16',
     title: 'ソースコードを読んでみよう',
     url: 'https://www.slideshare.net/ShunTsunoda/ss-84299783',
-    image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
+    image: 'wacate_logo.jpg',
   },
   {
     id: 8,
@@ -72,7 +72,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2018-06-16',
     title: '状態遷移テスト',
     url: 'https://speakerdeck.com/imtnd/zhuang-tai-qian-yi-tesuto-state-transition-testing',
-    image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
+    image: 'wacate_logo.jpg',
   },
   {
     id: 9,
@@ -88,7 +88,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2018-12-15',
     title: 'コードカバレッジを知ろう',
     url: 'https://speakerdeck.com/imtnd/kodokabaretuziwozhi-rou',
-    image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
+    image: 'wacate_logo.jpg',
   },
   {
     id: 11,
@@ -112,7 +112,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2019-06-15',
     title: 'ワーク進め方説明(資料非公開)',
     url: '',
-    image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
+    image: 'wacate_logo.jpg',
   },
   {
     id: 14,
@@ -136,7 +136,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2019-12-14',
     title: 'アジャイルとテスト',
     url: 'https://speakerdeck.com/imtnd/agile-and-testing',
-    image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
+    image: 'wacate_logo.jpg',
   },
   {
     id: 17,
@@ -152,7 +152,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2020-12-12',
     title: 'テストの目的を考えよう',
     url: 'https://speakerdeck.com/imtnd/tesutofalsemu-de-wokao-eyou',
-    image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
+    image: 'wacate_logo.jpg',
   },
   {
     id: 19,
@@ -168,7 +168,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2021-06-12',
     title: 'テスト技法作成のアプローチを考える',
     url: 'https://speakerdeck.com/imtnd/tesutoji-fa-zuo-cheng-falseapurotiwokao-eru',
-    image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
+    image: 'wacate_logo.jpg',
   },
   {
     id: 21,
@@ -184,7 +184,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2021-12-12',
     title: 'デシジョンテーブルで振る舞いを整理しよう',
     url: 'https://speakerdeck.com/imtnd/analyze-the-behavior-with-decision-table',
-    image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
+    image: 'wacate_logo.jpg',
   },
   {
     id: 23,
@@ -208,7 +208,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2022-06-18',
     title: 'ワークショップの目的',
     url: 'https://speakerdeck.com/imtnd/wacate-2022-xia-wakusiyotupufalsemu-de',
-    image: 'https://pbs.twimg.com/profile_images/1053944478388473856/E5sXSgYd_400x400.jpg',
+    image: 'wacate_logo.jpg',
   },
 ];
 

@@ -49,7 +49,7 @@ const HomePage: React.FC = () => {
           <Grid item xs={12} sx={{ textAlign: 'center', display: 'flex', justifyContent: 'center' }}>
             <StyledAvatar
               alt="Profile Image"
-              src="https://pbs.twimg.com/profile_images/780408218711273472/M21L_Le0_400x400.jpg"
+              src="panda_iruka_irowake_iruka.png"
             />
           </Grid>
           <Grid item xs={12} sx={{  textAlign: 'center' }}>
@@ -107,6 +107,11 @@ const HomePage: React.FC = () => {
                 Speaker Deck
               </Link>
             </Box>
+          </Grid>
+          <Grid item xs={12} sx={{  textAlign: 'center' }}>
+            <Typography variant="subtitle1" gutterBottom>
+              <Link href="https://docs.google.com/forms/d/e/1FAIpQLScAVxTtlOvDgYKvJQnEpQv6SuuJnhzN8Ke3FfwSS8JuloMUCg/viewform" target="_blank" rel="noopener noreferrer">お問い合わせ</Link>
+            </Typography>
           </Grid>
         </Grid>
       </Box>
