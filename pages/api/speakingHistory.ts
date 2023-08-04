@@ -16,7 +16,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2016-01-23',
     title: 'アジャイルプラクティス導入事例',
     url: 'https://www.slideshare.net/ShunTsunoda/ss-57420917',
-    image: 'https://connpass-tokyo.s3.amazonaws.com/thumbs/94/1e/941e00cfc1bb555f056e444db0b19f22.png',
+    image: 'https://media.connpass.com/thumbs/94/1e/941e00cfc1bb555f056e444db0b19f22.png',
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2016-04-23',
     title: 'Docker入門',
     url: 'https://speakerdeck.com/imtnd/dockerru-men',
-    image: 'https://connpass-tokyo.s3.amazonaws.com/thumbs/40/b1/40b109fb862be9e9d0659804e4cc423d.png',
+    image: 'https://media.connpass.com/thumbs/40/b1/40b109fb862be9e9d0659804e4cc423d.png',
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2016-08-12',
     title: 'Are you ready?　～これからアジャイル開発をスタートアップするために　プラクティスの実践と実感～',
     url: 'https://www.slideshare.net/Ikedon/are-you-ready-64913541',
-    image: 'https://connpass-tokyo.s3.amazonaws.com/thumbs/40/b1/40b109fb862be9e9d0659804e4cc423d.png',
+    image: 'https://media.connpass.com/thumbs/40/b1/40b109fb862be9e9d0659804e4cc423d.png',
   },
   {
     id: 4,
@@ -56,7 +56,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2017-07-16',
     title: 'Git Flowを運用するために',
     url: 'https://www.slideshare.net/ShunTsunoda/git-flow-77929819',
-    image: 'https://connpass-tokyo.s3.amazonaws.com/thumbs/3a/e8/3ae8066760bdaaf452e6054818b83691.png',
+    image: 'https://media.connpass.com/thumbs/3a/e8/3ae8066760bdaaf452e6054818b83691.png',
   },
   {
     id: 7,
@@ -80,7 +80,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2018-09-15',
     title: '流れを止めないチーム開発(未使用)',
     url: 'https://speakerdeck.com/imtnd/liu-rewozhi-menaitimukai-fa',
-    image: 'https://connpass-tokyo.s3.amazonaws.com/thumbs/2a/26/2a2614e0882e8862ff8b00fd8c15552d.png'
+    image: 'https://media.connpass.com/thumbs/2a/26/2a2614e0882e8862ff8b00fd8c15552d.png'
   },
   {
     id: 10,
@@ -96,7 +96,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2019-03-23',
     title: 'Agile Japan 2019 Report',
     url: 'https://speakerdeck.com/imtnd/agile-japan-2019-report',
-    image: 'https://connpass-tokyo.s3.amazonaws.com/thumbs/d2/78/d278ed8afad9573ca1393a78ed053abd.png',
+    image: 'https://media.connpass.com/thumbs/d2/78/d278ed8afad9573ca1393a78ed053abd.png',
   },
   {
     id: 12,
@@ -104,7 +104,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2019-04-07',
     title: 'テストレベル定義について考える',
     url: 'https://speakerdeck.com/imtnd/lets-consider-about-test-levels',
-    image: 'https://connpass-tokyo.s3.amazonaws.com/thumbs/2b/8d/2b8dd7bad6f719ffb0faf0aa8361e3ea.png',
+    image: 'https://media.connpass.com/thumbs/2b/8d/2b8dd7bad6f719ffb0faf0aa8361e3ea.png',
   },
   {
     id: 13,
@@ -176,7 +176,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2021-06-26',
     title: 'フィードバックを加速させる開発(開催中止)',
     url: '',
-    image: 'https://connpass-tokyo.s3.amazonaws.com/thumbs/44/18/441849f8d8a8449298a7eed9f4ec14f5.png',
+    image: 'https://media.connpass.com/thumbs/44/18/441849f8d8a8449298a7eed9f4ec14f5.png',
   },
   {
     id: 22,
@@ -192,7 +192,7 @@ const speakingHistory: SpeakingHistory[] = [
     date: '2022-02-26',
     title: 'アーキテクチャとテスタビリティ(開催中止)',
     url: '',
-    image: 'https://connpass-tokyo.s3.amazonaws.com/thumbs/76/b0/76b0cbf5f1976e3aa7dc2b680d99014f.png',
+    image: 'https://media.connpass.com/thumbs/76/b0/76b0cbf5f1976e3aa7dc2b680d99014f.png',
   },
   {
     id: 24,

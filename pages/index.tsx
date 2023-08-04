@@ -6,11 +6,6 @@ import {
   Avatar,
   Grid,
   Link,
-  Button,
-  List,
-  ListItem,
-  ListItemText,
-  ListItemAvatar,
 } from '@mui/material';
 import { styled } from '@mui/system';
 import CircularProgress from '@mui/material/CircularProgress';
