@@ -110,7 +110,9 @@ const HomePage: React.FC = () => {
           </Grid>
           <Grid item xs={12} sx={{  textAlign: 'center' }}>
             <Typography variant="subtitle1" gutterBottom>
+              &#x2709;&#xFE0F;
               <Link href="https://docs.google.com/forms/d/e/1FAIpQLScAVxTtlOvDgYKvJQnEpQv6SuuJnhzN8Ke3FfwSS8JuloMUCg/viewform" target="_blank" rel="noopener noreferrer">Contact Me</Link>
+              &#x2709;&#xFE0F;
             </Typography>
           </Grid>
         </Grid>
