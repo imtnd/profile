@@ -10,6 +10,7 @@ import {
 import { styled } from '@mui/system';
 import CircularProgress from '@mui/material/CircularProgress';
 import { SpeakingList, Speaking } from '../components/speakingList';
+import { CertificationList, Certification } from '../components/certifications';
 
 const StyledAvatar = styled(Avatar)(({ theme }) => ({
   width: 150,
@@ -19,19 +20,37 @@ const StyledAvatar = styled(Avatar)(({ theme }) => ({
 
 const HomePage: React.FC = () => {
   const historyRef = useRef<HTMLDivElement>(null);
+  const [certifications, setCertifications] = useState<Certification[]>([]);
+  const [isCertificationsLoading, setCertificationIsLoading] = useState(true);
   const [speakingList, setSpeakingList] = useState<Speaking[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isSpeakingLoading, setSpeakingIsLoading] = useState(true);
+  
+
+  // useEffect(() => {
+  //   const fetchCertificationsHistory = async () => {
+  //     setCertificationIsLoading(true);
+  //     try {
+  //       const res = await fetch('/api/certifications');
+  //       const data = await res.json();
+  //       setCertifications(data);
+  //       setCertificationIsLoading(false);
+  //     } catch (error) {
+  //       setCertificationIsLoading(false);
+  //     }
+  //   };
+  //   fetchCertificationsHistory();
+  // }, []);
 
   useEffect(() => {
     const fetchSpeakingHistory = async () => {
-      setIsLoading(true);
+      setSpeakingIsLoading(true);
       try {
         const res = await fetch('/api/speakingHistory');
         const data = await res.json();
         setSpeakingList(data);
-        setIsLoading(false);
+        setSpeakingIsLoading(false);
       } catch (error) {
-        setIsLoading(false);
+        setSpeakingIsLoading(false);
       }
     };
     fetchSpeakingHistory();
@@ -117,12 +136,26 @@ const HomePage: React.FC = () => {
           </Grid>
         </Grid>
       </Box>
+      {/* <Box ref={historyRef} sx={{ my: 4 }}>
+        <Typography variant="h5" component="h2" gutterBottom>
+          Certifications
+        </Typography>
+        <div>
+          {isCertificationsLoading ? (
+           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '20vh'}}>
+             <CircularProgress />
+           </div>
+          ) : (
+            <CertificationList certifications={certifications} />
+          )}
+        </div>
+      </Box> */}
       <Box ref={historyRef} sx={{ my: 4 }}>
         <Typography variant="h5" component="h2" gutterBottom>
           Speaking History
         </Typography>
         <div>
-          {isLoading ? (
+          {isSpeakingLoading ? (
            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '20vh'}}>
              <CircularProgress />
            </div>
