@@ -210,6 +210,14 @@ const speakingHistory: SpeakingHistory[] = [
     url: 'https://speakerdeck.com/imtnd/wacate-2022-xia-wakusiyotupufalsemu-de',
     image: 'wacate_logo.jpg',
   },
+  {
+    id: 26,
+    conference: 'JSTQB カンファレンス in 2023 Autumn',
+    date: '2023-09-25',
+    title: 'パネルディスカッション DevOpsの品質管理',
+    url: 'https://jstqb.jp/prinfo/conference2023/',
+    image: 'https://media.connpass.com/thumbs/6e/fd/6efd6698e43e585926035f4f3fd6eca1.png',
+  },
 ];
 
 export default function handler(
