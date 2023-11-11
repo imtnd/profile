@@ -151,7 +151,7 @@ const HomePage: React.FC = () => {
         </div>
       </Box> */}
       <Box ref={historyRef} sx={{ my: 4 }}>
-        <Typography variant="h5" component="h2" gutterBottom>
+        <Typography variant="h5" component="h2" >
           Speaking History
         </Typography>
         <div>
